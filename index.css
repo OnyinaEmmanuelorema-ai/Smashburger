@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.flag {
+  width: 500px;
+  height: 300px;
+ margin: 82px 0 0 10px;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.flag > p {
+  margin: 0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   font-family: "Times New Roman", serif;
+  font-size: 70px;
+  font-weight: normal;
+  color: black;
+}
+
+
+.flag > div {
+  height: 100px;
+  background-color: blue;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.flag > div > div {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag > div > div > p {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+  font-size: 27px;
+  color: black;
+}
